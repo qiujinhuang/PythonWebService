@@ -44,8 +44,8 @@ class SomeSampleServices(ServiceBase):
         connection.close()
 
         person2 = Person()
-        result
-        person2.age = result.has_key('age')
+
+        person2.age = result['age']
         person2.name = result['name']
         person2.sex = result['sex']
 
